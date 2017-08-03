@@ -46,14 +46,14 @@ def index():
     limit = request.args.get("limit")
     pageId = request.args.get("pageid")
     type = request.args.get("type")
-    if limit == 0 or limit == None:
-        return "请设置Limit参数"
     if pageId == "" or pageId == None:
         return "请设置PageId参数"
     if type == "" or type == None:
         return "请设置PageId参数"
     token = "EAACEdEose0cBAByFmp2PYmuRPdA4jk24ed4k2dzLuzgBK0ii72SI9I9c83gFWOZCBvxAc8iZCtY3sQLBqP3oOhCpq4g9kwd0NU9gfkez6hi1X1ktoTPE7yaAtaqFhn4TOUznuvxLDCu7J8MH16UcXRh0ZA0KFg3xKZCoXw6ZBKvUF7ZB50N9kKGPZAwiAMGVm0ZD"
     if type == "post":
+        if limit == 0 or limit == None:
+            return "请设置Limit参数"
         r = requests.get(
             "https://graph.facebook.com/v2.10/" + pageId + "/feed?access_token=" + token +"&limit=" + str(limit))
         content_json = json.loads(r.text)
