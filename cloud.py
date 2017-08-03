@@ -1,23 +1,23 @@
 # coding: utf-8
 
+from leancloud import HttpsRedirectMiddleware
 from leancloud import Engine
 from leancloud import LeanEngineError
-import leancloud
 
 from app import app
-import requests
 
+
+# 需要重定向到 HTTPS 可去除下一行的注释。
+# app = HttpsRedirectMiddleware(app)
 engine = Engine(app)
 
 
-class AndroidId(leancloud.Object):
-    pass
-
-
 @engine.define
-def Hello(**params):
-    print params
-    return 'androidId missing'
+def hello(**params):
+    if 'name' in params:
+        return 'Hello, {}!'.format(params['name'])
+    else:
+        return 'Hello, LeanCloud!'
 
 
 @engine.before_save('Todo')
