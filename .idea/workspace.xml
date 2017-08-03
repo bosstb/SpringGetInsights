@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5e5c48f-7fcb-46ea-ac76-4f360aeb5eea" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/YoutubeDL.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/aes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/cache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/compat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/dash.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/external.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/f4m.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/fragment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/hls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/http.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/ism.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/rtmp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/downloader/rtsp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/abcnews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/abcotvs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/academicearth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/acast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/addanime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/adn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/adobepass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/adobetv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/adultswim.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/aenetworks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/afreecatv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/airmozilla.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/aljazeera.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/allocine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/alphaporno.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/amcnetworks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/amp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/animeondemand.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/anitube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/anvato.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/anysex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/aol.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/aparat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/appleconnect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/appletrailers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/archiveorg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ard.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/arkena.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/arte.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/atresplayer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/atttechchannel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/atvat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/audimedia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/audioboom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/audiomack.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/awaan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/azmedien.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/azubu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/baidu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bambuser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bandcamp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bbc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/beampro.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/beatport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/beeg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/behindkink.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bellmedia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bigflix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bild.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bilibili.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/biobiochiletv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/biqle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bleacherreport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/blinkx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bloomberg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bokecc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bostonglobe.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bpb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/br.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/bravotv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/breakcom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/brightcove.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/buzzfeed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/byutv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/c56.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/camdemy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/camwithher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/canalc2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/canalplus.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/canvas.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/carambatv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cartoonnetwork.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cbc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cbs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cbsinteractive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cbslocal.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cbsnews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cbssports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ccc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ccma.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cctv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cda.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ceskatelevize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/channel9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/charlierose.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/chaturbate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/chilloutzone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/chirbit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cinchcast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/clipfish.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cliphunter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cliprs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/clipsyndicate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/closertotruth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cloudy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/clubic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/clyp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cmt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cnbc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cnn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/collegerama.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/comcarcoff.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/comedycentral.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/commonmistakes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/commonprotocols.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/condenast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/corus.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/coub.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cracked.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/crackle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/criterion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/crooksandliars.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/crunchyroll.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cspan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ctsnews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ctvnews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cultureunplugged.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/curiositystream.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/cwtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dailymail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dailymotion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/daisuki.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/daum.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dbtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dctp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/deezer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/defense.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/democracynow.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dfb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dhm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/digiteka.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/discovery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/discoverygo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/discoverynetworks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/discoveryvr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/disney.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dispeak.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dotsub.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/douyutv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dramafever.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/drbonanza.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dreisat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dropbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/drtuber.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/drtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dumpert.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dvtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/dw.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/eagleplatform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ebaumsworld.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/echomsk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/egghead.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ehow.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/eighttracks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/einthusan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/eitb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ellentv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/elpais.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/embedly.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/engadget.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/eporner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/eroprofile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/escapist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/espn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/esri.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/etonline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/europa.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/everyonesmixtape.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/expotv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/extractors.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/extremetube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/eyedotv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/facebook.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/faz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fc2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fczenit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/filmon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/firstpost.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/firsttv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fivemin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fivetv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fktv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/flickr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/flipagram.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/folketinget.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/footyroom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/formula1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fourtube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fox9.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/foxgay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/foxnews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/foxsports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/franceculture.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/franceinter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/francetv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/freesound.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/freespeech.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/freshlive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/funimation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/funnyordie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fusion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/fxnetworks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gameinformer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gameone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gamersyde.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gamespot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gamestar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gaskrank.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gazeta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gdcvault.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/generic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gfycat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/giantbomb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/giga.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/glide.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/globo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/go.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/godtube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/godtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/golem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/googledrive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/googleplus.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/googlesearch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/goshgay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/gputechconf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/groupon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hark.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hbo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hearthisat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/heise.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hellporno.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/helsinki.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hentaistigma.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hgtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/historicfilms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hitbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hitrecord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hornbunny.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hotnewhiphop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hotstar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/howcast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/howstuffworks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hrti.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/huajiao.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/huffpost.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/hypem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/iconosquare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ign.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/imdb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/imgur.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ina.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/inc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/indavideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/infoq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/instagram.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/internetvideoarchive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/iprima.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/iqiyi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ir90tv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/itv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ivi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ivideon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/iwara.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/izlesene.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/jamendo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/jeuxvideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/jove.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/jpopsukitv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/jwplatform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kaltura.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kamcord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kanalplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kankan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/karaoketv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/karrierevideos.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/keek.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/keezmovies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ketnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/khanacademy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kickstarter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/konserthusetplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kontrtube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/krasview.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ku6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kusi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/kuwo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/la7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/laola1tv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lci.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lcp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/learnr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lecture2go.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/leeco.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lego.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lemonde.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/libraryofcongress.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/libsyn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lifenews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/limelight.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/litv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/liveleak.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/livestream.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lnkgo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/localnews8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lovehomeporn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lrt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/lynda.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/m6.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/macgamestore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mailru.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/makerschannel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/makertv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mangomolo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/matchtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mdr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/medialaan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/meipai.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/melonvod.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/meta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/metacafe.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/metacritic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mgoon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mgtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/miaopai.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/microsoftvirtualacademy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/minhateca.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ministrygrid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/minoto.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/miomio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mitele.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mixcloud.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mlb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mnet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/moevideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mofosex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mojvideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/moniker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/morningstar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/motherless.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/motorsport.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/movieclips.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/moviezine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/movingimage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mpora.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/msn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/muenchentv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/musicplayon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/mwave.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/myspace.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/myspass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/myvi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/myvideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/myvidster.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nationalgeographic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/naver.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nba.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nbc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ndr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ndtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nerdcubed.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/neteasemusic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/netzkino.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/newgrounds.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/newstube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nextmedia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nfb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nfl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nhk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nhl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nick.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/niconico.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ninecninemedia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ninegag.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ninenow.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nintendo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/njpwworld.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nobelprize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/noco.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/normalboots.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nosvideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nova.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/novamov.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nowness.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nowtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/noz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/npo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/npr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nrk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ntvde.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ntvru.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nuevo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nuvid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nytimes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/nzz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/odatv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/odnoklassniki.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/oktoberfesttv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/once.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ondemandkorea.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/onet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/onionstudios.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ooyala.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/openload.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ora.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/orf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/packtpub.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pandatv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pandoratv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/parliamentliveuk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/patreon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pbs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/people.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/periscope.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/philharmoniedeparis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/phoenix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/photobucket.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/piksel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pinkbike.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pladform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/playfm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/plays.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/playtvak.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/playvid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/playwire.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pluralsight.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/podomatic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pokemon.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/polskieradio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/porn91.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/porncom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pornflip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pornhd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pornhub.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pornotube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pornovoisines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pornoxo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/presstv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/primesharetv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/promptfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/prosiebensat1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/puls4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/pyvideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/qqmusic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/r7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/radiobremen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/radiocanada.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/radiode.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/radiofrance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/radiojavan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rai.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rbmaradio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rds.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/redbulltv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/redtube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/regiotv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rentv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/restudy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/reuters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/reverbnation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/revision3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ringtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rmcdecouverte.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ro220.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rockstargames.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/roosterteeth.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rottentomatoes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/roxwel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rozhlas.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rtbf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rte.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rtl2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rtlnl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rtp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rtve.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rtvnh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rudo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ruhd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ruleporn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rutube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/rutv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ruutu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/safari.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sandia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sapo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/savefrom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sbs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/screencast.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/screencastomatic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/scrippsnetworks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/seeker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/senateisvp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sendtonews.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/servingsys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sexu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/shahid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/shared.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/showroomlive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sina.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sixplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/skylinewebcams.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/skynewsarabia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/skysports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/slideshare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/slutload.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/smotri.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/snotr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sohu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sonyliv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/soundcloud.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/soundgasm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/southpark.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/spankbang.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/spankwire.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/spiegel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/spiegeltv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/spike.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sport5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sportbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sportdeutschland.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sportschau.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sprout.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/srgssr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/srmediathek.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/stanfordoc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/steam.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/stitcher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/streamable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/streamcloud.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/streamcz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/streetvoice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sunporno.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/svt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/swrmediathek.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/syfy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/sztvhu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tagesschau.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tbs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tdslifeway.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/teachertube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/teachingchannel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/teamcoco.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/teamfourstar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/techtalks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ted.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tele13.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/telebruxelles.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/telecinco.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/telegraaf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/telemb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/telequebec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/teletask.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/telewebion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/testurl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tf1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/theintercept.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/theplatform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/thescene.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/thesixtyone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/thestar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/theweatherchannel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/thisamericanlife.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/thisav.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/thisoldhouse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/threeqsdn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tinypic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tmz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tnaflix.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/toggle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tonline.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/toongoggles.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/toutv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/toypics.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/traileraddict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/trilulilu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/trutv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tube8.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tubitv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tudou.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tumblr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tunein.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tunepk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/turbo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/turner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tutv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tv2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tv3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tv4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tv5mondeplus.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tva.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvanouvelles.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvigle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvland.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvn24.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvnoe.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tvplayer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/tweakers.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/twentyfourvideo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/twentymin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/twentytwotracks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/twitch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/twitter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/udemy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/udn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/uktvplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/unistra.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/uol.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/uplynk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/urort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/urplay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/usanetwork.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/usatoday.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ustream.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ustudio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/varzesh3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vbox7.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/veehd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/veoh.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vessel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vesti.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vevo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vgtv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vh1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vice.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/viceland.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vidbit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/viddler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/videa.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/videodetective.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/videofyme.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/videomega.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/videomore.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/videopremium.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/videopress.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vidio.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vidme.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vidzi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/viewlift.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/viewster.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/viidea.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/viki.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vimeo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vimple.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/viu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vlive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vodlocker.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vodpl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vodplatform.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/voicerepublic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/voxmedia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vporn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vrak.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vrt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vrv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vuclip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vvvvid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vyborymos.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/vzaar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/walla.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/washingtonpost.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/wat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/watchindianporn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/wdr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/webcaster.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/webofstories.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/weiqitv.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/wimp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/wistia.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/worldstarhiphop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/wrzuta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/wsj.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xbef.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xboxclips.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xfileshare.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xhamster.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xiami.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xminus.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xnxx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xstream.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xtube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xuite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xvideos.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/xxxymovies.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/yahoo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/yam.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/yandexmusic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/yesjapan.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/yinyuetai.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/ynet.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/youjizz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/youku.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/youporn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/yourupload.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/youtube.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/zapiks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/zdf.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/extractor/zingmp3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/jsinterp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/options.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/postprocessor/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/postprocessor/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/postprocessor/embedthumbnail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/postprocessor/execafterdownload.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/postprocessor/ffmpeg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/postprocessor/metadatafromtitle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/postprocessor/xattrpp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/socks.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/swfinterp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/update.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/youtube_dl/version.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+    </list>
+    <ignored path="Hasoffers.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/HaberPush$Test.coverage" NAME="Test Coverage Results" MODIFIED="1492358863021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hasoffers$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1483160442260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HaberPush$Hasoffers.coverage" NAME="Hasoffers Coverage Results" MODIFIED="1492358905376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/SpringGetInsights$Hasoffers.coverage" NAME="Hasoffers Coverage Results" MODIFIED="1501747685438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Hassoffers$Hasoffers.coverage" NAME="Hasoffers Coverage Results" MODIFIED="1483671853947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Hasoffers$Hasoffers.coverage" NAME="Hasoffers Coverage Results" MODIFIED="1484099977032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Hasoffers$Test.coverage" NAME="Test Coverage Results" MODIFIED="1483288508382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hasoffers$cloud.coverage" NAME="cloud Coverage Results" MODIFIED="1482823229638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Hasoffers" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1881">
+              <caret line="102" column="84" selection-start-line="102" selection-start-column="84" selection-end-line="102" selection-end-column="84" />
+              <folding>
+                <element signature="e#41#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SAMPLE_CODE.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SAMPLE_CODE.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1406">
+              <caret line="80" column="89" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python27/Lib/site-packages/flask/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="1624" column="0" selection-start-line="1624" selection-start-column="0" selection-end-line="1624" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wsgi.py" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/cloud.py" />
+        <option value="$PROJECT_DIR$/templates/Push.html" />
+        <option value="$PROJECT_DIR$/Token" />
+        <option value="$PROJECT_DIR$/static/token.txt" />
+        <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1292" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringGetInsights" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringGetInsights" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringGetInsights" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github库\SpringGetInsights" />
+      <recent name="D:\GIT\HaberPush\static" />
+      <recent name="D:\GIT\HaberPush\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Hasoffers">
+    <configuration default="false" name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hasoffers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cloud" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hasoffers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hasoffers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hasoffers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hasoffers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hasoffers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Hasoffers" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Hasoffers" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Hasoffers" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.cloud" />
+      <item index="3" class="java.lang.String" itemvalue="Python.wsgi" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5e5c48f-7fcb-46ea-ac76-4f360aeb5eea" name="Default" comment="" />
+      <created>1482819300036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482819300036</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1292" height="776" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22321428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34735203" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32554516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33956388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="68" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/cloud.py" />
+    <entry file="file://$PROJECT_DIR$/cloud.py" />
+    <entry file="file://$PROJECT_DIR$/app.py" />
+    <entry file="file://$PROJECT_DIR$/Test.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17176">
+          <caret line="939" column="0" selection-start-line="939" selection-start-column="0" selection-end-line="939" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/runtime.txt" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/cloud.py" />
+    <entry file="file://$PROJECT_DIR$/app.py" />
+    <entry file="file://$PROJECT_DIR$/Test.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17271">
+          <caret line="944" column="36" selection-start-line="944" selection-start-column="36" selection-end-line="944" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/runtime.txt" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/cloud.py" />
+    <entry file="file://$PROJECT_DIR$/cloud.py" />
+    <entry file="file://$PROJECT_DIR$/app.py" />
+    <entry file="file://$PROJECT_DIR$/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/runtime.txt" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/Token" />
+    <entry file="file://$PROJECT_DIR$/wsgi.py" />
+    <entry file="file://$PROJECT_DIR$/runtime.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17176">
+          <caret line="939" column="0" selection-start-line="939" selection-start-column="0" selection-end-line="939" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5890">
+          <caret line="313" column="0" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Push.html" />
+    <entry file="file://D:/Python27/Lib/site-packages/selenium-3.3.3-py2.7.egg/selenium/webdriver/common/service.py" />
+    <entry file="file://$PROJECT_DIR$/Test.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/cloud.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/static/token.txt" />
+    <entry file="file://$PROJECT_DIR$/views/todos.py" />
+    <entry file="file://$PROJECT_DIR$/views/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/templates/todos.html" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html" />
+    <entry file="file://$PROJECT_DIR$/SAMPLE_CODE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="80" column="89" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1624" column="0" selection-start-line="1624" selection-start-column="0" selection-end-line="1624" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881">
+          <caret line="102" column="84" selection-start-line="102" selection-start-column="84" selection-end-line="102" selection-end-column="84" />
+          <folding>
+            <element signature="e#41#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
