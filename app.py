@@ -87,8 +87,8 @@ def index():
         for i, row in enumerate(data):
             for j, col in enumerate(row):
                 booksheet.write(i, j, col)
-        workbook.save('d:\grade.xls')
-        response = make_response(send_file("d:\grade.xls"))
+        workbook.save('/grade.xls')
+        response = make_response(send_file("/grade.xls"))
         response.headers["Content-Disposition"] = "attachment; filename=data.xls;"
         return response
     elif type == "page":
@@ -111,8 +111,8 @@ def index():
         for i, row in enumerate(data):
             for j, col in enumerate(row):
                 booksheet.write(i, j, col)
-        workbook.save('d:\grade.xls')
-        response = make_response(send_file("d:\grade.xls"))
+        workbook.save('/grade.xls')
+        response = make_response(send_file("/grade.xls"))
         response.headers["Content-Disposition"] = "attachment; filename=data.xls;"
         return response
     else:
