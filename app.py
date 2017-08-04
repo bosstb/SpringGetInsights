@@ -42,6 +42,8 @@ def index():
     limit = request.args.get("limit")
     pageId = request.args.get("pageid")
     type = request.args.get("type")
+    since = request.args.get("since")
+    until = request.args.get("until")
     if pageId == "" or pageId == None:
         return "请设置PageId参数"
     if type == "" or type == None:
@@ -52,7 +54,7 @@ def index():
     query.equal_to('version', '1')
     query_list = query.find()
     token = query_list[0].get('token')
-    #token = "EAACEdEose0cBAFK6QZBRYapl2iAEs9yr4sfeofZBTSZC7GbU25dT94RLApt4bePh0hVUbQsvSb4DiOvdrhbV2Sgm51TjO8KkxYEGfpRsSKtyI7lMeTCfWwvo3HgQTrDbLEFiVwBodTcxDHYEEGZCgFAcqN3wB43a0vGyMCH08iicBxGPh7ioxfN4BjDhTpIZD"
+    #token = "EAACEdEose0cBAEBiHAafLACIiWueTe3fSuM7ZAVcebVDFKcioZCs5tZCNRZAIxnTDWRLhb5jt1OlAb6E1T6URE8eICrW5B8tA6gZBPT4n4dDTFYMyPgMWHHkZArx4VI8E6jg86fsxk2EqVY3Ef3p0A9ragl1yqz4nFpetSx67nraoGGZAmvohe0WHn9Q7bb5psZD"
     if type == "post":
         if limit == 0 or limit == None:
             return "请设置Limit参数"
@@ -119,7 +121,8 @@ def index():
         return json.dumps(result)
     elif type == "page":
         r = requests.get(
-            "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fan_adds_unique,page_fan_removes_unique,page_engaged_users,page_views_logged_in_total,page_posts_impressions_unique,page_video_views&period=day&since=1 day ago&until=now&access_token=" + token)
+            "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fan_adds_unique,page_fan_removes_unique,page_engaged_users,page_views_logged_in_total,page_posts_impressions_unique,page_video_views&period=day&since=" + since + "&until=" + until + "&access_token=" + token)
+        print "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fan_adds_unique,page_fan_removes_unique,page_engaged_users,page_views_logged_in_total,page_posts_impressions_unique,page_video_views&period=day&since=" + since + "&until=" + until + "&access_token=" + token
         content_json = json.loads(r.text)
         data = []
         values = []
