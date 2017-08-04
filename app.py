@@ -54,17 +54,17 @@ def index():
     query.equal_to('version', '1')
     query_list = query.find()
     token = query_list[0].get('token')
-    #token = "EAACEdEose0cBAEBiHAafLACIiWueTe3fSuM7ZAVcebVDFKcioZCs5tZCNRZAIxnTDWRLhb5jt1OlAb6E1T6URE8eICrW5B8tA6gZBPT4n4dDTFYMyPgMWHHkZArx4VI8E6jg86fsxk2EqVY3Ef3p0A9ragl1yqz4nFpetSx67nraoGGZAmvohe0WHn9Q7bb5psZD"
+    #token = "EAACEdEose0cBABJMhhVWSe8MRFnZA5wAAAoAkZAkyjMxNqoC04JQu67QWckmLHN2AoPyZAztWUvVef9nAVypRWPydHeuc0ZC5ediYuKCTjVFCB2DwvQsZCR0NLUwBPJZAxoCgrZAwnrfneAYLI3AaUWlEBXOVZCdebeZAHUUtm7iHcLw5EhfS761w9cbg626ZBrtkZD"
     if type == "post":
         if limit == 0 or limit == None:
             return "请设置Limit参数"
         r = requests.get(
-            "https://graph.facebook.com/v2.10/" + pageId + "/feed?fields=comments,shares,likes,message,created_time&access_token=" + token +"&limit=" + str(limit))
+            "https://graph.facebook.com/v2.10/" + pageId + "/feed?fields=type,comments,shares,likes,message,created_time&access_token=" + token +"&limit=" + str(limit))
         content_json = json.loads(r.text)
         for item in content_json.get("data"):
             created_time = item.get("created_time")
             message = item.get("message")
-
+            post_type = item.get("type")
             id = item.get("id")
             like_count = 0
             comment_count = 0
@@ -90,6 +90,7 @@ def index():
             names.append("created_time")
             names.append("id")
             names.append("message")
+            names.append("type")
             names.append("like_count")
             names.append("comment_count")
             names.append("share_count")
@@ -101,6 +102,7 @@ def index():
             paras.append(created_time)
             paras.append(id)
             paras.append(message)
+            paras.append(post_type)
             paras.append(like_count)
             paras.append(comment_count)
             paras.append(share_count)
