@@ -54,71 +54,78 @@ def index():
     query.equal_to('version', '1')
     query_list = query.find()
     token = query_list[0].get('token')
-    #token = "EAACEdEose0cBABJMhhVWSe8MRFnZA5wAAAoAkZAkyjMxNqoC04JQu67QWckmLHN2AoPyZAztWUvVef9nAVypRWPydHeuc0ZC5ediYuKCTjVFCB2DwvQsZCR0NLUwBPJZAxoCgrZAwnrfneAYLI3AaUWlEBXOVZCdebeZAHUUtm7iHcLw5EhfS761w9cbg626ZBrtkZD"
+    #token = "EAACEdEose0cBAO3M7ZAvdNyPN6X6Lr8T4xZCyzndY1iy56CQdjHxyVOjM7TRMaNIIIlBnZCc7x4LakyP5mZCb8erq4SB1U5IiZA91m63SRHJENpGMm9AoZBEZBG8RpXDMLYiRc9smiVWS8CPpUnL54BWX36zZBVFkHMwIs9ZBajKLobN99wpf6hpLPoFfZCiimZBZAyMpIm8DbJYOgZDZD"
     if type == "post":
         if limit == 0 or limit == None:
             return "请设置Limit参数"
-        r = requests.get(
-            "https://graph.facebook.com/v2.10/" + pageId + "/feed?fields=type,comments,shares,likes,message,created_time&access_token=" + token +"&limit=" + str(limit))
-        content_json = json.loads(r.text)
-        for item in content_json.get("data"):
-            created_time = item.get("created_time")
-            message = item.get("message")
-            post_type = item.get("type")
-            id = item.get("id")
-            like_count = 0
-            comment_count = 0
-            share_count = 0
-            if item.get("likes"):
-                like_count = len(item.get("likes").get("data"))
-            if item.get("comments"):
-                comment_count = len(item.get("comments").get("data"))
-            if item.get("shares"):
-                share_count = item.get("shares").get("count")
-            # r = requests.get("https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions,post_impressions_unique,post_impressions_paid,"
-            #                                                                  "post_impressions_paid_unique,post_impressions_fan,post_impressions_fan_unique,post_impressions_fan_paid,"
-            #                                                             "post_impressions_fan_paid_unique,post_impressions_organic,post_impressions_organic_unique,"
-            #                                                             "post_impressions_viral,post_impressions_viral_unique,post_impressions_by_story_type,post_impressions_by_story_type_unique,"
-            #                                                             "post_impressions_by_paid_non_paid,post_impressions_by_paid_non_paid_unique,"
-            #                                                             "post_consumptions,	post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,post_negative_feedback,post_negative_feedback_unique,post_negative_feedback_by_type,post_negative_feedback_by_type_unique,post_engaged_fan,post_fan_reach,page_story_adds,"
-            #                                                             "page_story_adds_by_age_gender_unique,page_story_adds_by_city_unique,page_story_adds_by_country_unique,&access_token=" + token + "&limit=10")
-            r = requests.get(
-                "https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions_unique,post_video_views_organic,post_video_views_paid,post_consumptions,post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,&access_token=" + token + "&limit=10")
-            print r.text
-            post_json = json.loads(r.text)
-            names = []
-            names.append("created_time")
-            names.append("id")
-            names.append("message")
-            names.append("type")
-            names.append("like_count")
-            names.append("comment_count")
-            names.append("share_count")
-            for para in post_json.get("data"):
-                names.append(para.get("name"))
-            if len(data) == 0:
-                data.append(names)
-            paras = []
-            paras.append(created_time)
-            paras.append(id)
-            paras.append(message)
-            paras.append(post_type)
-            paras.append(like_count)
-            paras.append(comment_count)
-            paras.append(share_count)
-            for para in post_json.get("data"):
-                paras.append(str(para.get("values")[0].get("value")))
+        url = "https://graph.facebook.com/v2.10/" + pageId + "/feed?fields=type,comments,shares,likes,message,created_time&access_token=" + token +"&limit=" + str(limit)
+        result = {}
+        while True:
+            r = requests.get(url)
+            content_json = json.loads(r.text)
+            for item in content_json.get("data"):
+                created_time = item.get("created_time")
+                message = item.get("message")
+                post_type = item.get("type")
+                id = item.get("id")
+                like_count = 0
+                comment_count = 0
+                share_count = 0
+                if item.get("likes"):
+                    like_count = len(item.get("likes").get("data"))
+                if item.get("comments"):
+                    comment_count = len(item.get("comments").get("data"))
+                if item.get("shares"):
+                    share_count = item.get("shares").get("count")
+                # r = requests.get("https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions,post_impressions_unique,post_impressions_paid,"
+                #                                                                  "post_impressions_paid_unique,post_impressions_fan,post_impressions_fan_unique,post_impressions_fan_paid,"
+                #                                                             "post_impressions_fan_paid_unique,post_impressions_organic,post_impressions_organic_unique,"
+                #                                                             "post_impressions_viral,post_impressions_viral_unique,post_impressions_by_story_type,post_impressions_by_story_type_unique,"
+                #                                                             "post_impressions_by_paid_non_paid,post_impressions_by_paid_non_paid_unique,"
+                #                                                             "post_consumptions,	post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,post_negative_feedback,post_negative_feedback_unique,post_negative_feedback_by_type,post_negative_feedback_by_type_unique,post_engaged_fan,post_fan_reach,page_story_adds,"
+                #                                                             "page_story_adds_by_age_gender_unique,page_story_adds_by_city_unique,page_story_adds_by_country_unique,&access_token=" + token + "&limit=10")
+                r = requests.get(
+                    "https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions_unique,post_video_views_organic,post_video_views_paid,post_consumptions,post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,&access_token=" + token + "&limit=10")
+                print "https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions_unique,post_video_views_organic,post_video_views_paid,post_consumptions,post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,&access_token=" + token + "&limit=10"
+                post_json = json.loads(r.text)
+                names = []
+                names.append("created_time")
+                names.append("id")
+                names.append("message")
+                names.append("type")
+                names.append("like_count")
+                names.append("comment_count")
+                names.append("share_count")
+                for para in post_json.get("data"):
+                    names.append(para.get("name"))
+                if len(data) == 0:
+                    data.append(names)
+                paras = []
+                paras.append(created_time)
+                paras.append(id)
+                paras.append(message)
+                paras.append(post_type)
+                paras.append(like_count)
+                paras.append(comment_count)
+                paras.append(share_count)
+                for para in post_json.get("data"):
+                    paras.append(str(para.get("values")[0].get("value")))
 
-            data.append(paras)
-        # import xlwt
-        # workbook = xlwt.Workbook(encoding='utf-8')
-        # booksheet = workbook.add_sheet('Sheet 1', cell_overwrite_ok=True)
-        # for i in range(len(data)):
-        #     for j in range(len(data[i])):
-        #         booksheet.write(i, j, data[i][j])
-        # workbook.save('/grade.xls')
-        # response = make_response(send_file("/grade.xls"))
-        # response.headers["Content-Disposition"] = "attachment; filename=data.xls;"
+                data.append(paras)
+            # import xlwt
+            # workbook = xlwt.Workbook(encoding='utf-8')
+            # booksheet = workbook.add_sheet('Sheet 1', cell_overwrite_ok=True)
+            # for i in range(len(data)):
+            #     for j in range(len(data[i])):
+            #         booksheet.write(i, j, data[i][j])
+            # workbook.save('/grade.xls')
+            # response = make_response(send_file("/grade.xls"))
+            # response.headers["Content-Disposition"] = "attachment; filename=data.xls;"
+            next = content_json.get("paging").get("next")
+            if next:
+                url = next
+            else:
+                break
         result = {"data": data}
         return json.dumps(result)
     elif type == "page":
