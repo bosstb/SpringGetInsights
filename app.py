@@ -54,11 +54,11 @@ def index():
     query.equal_to('version', '1')
     query_list = query.find()
     token = query_list[0].get('token')
-    #token = "EAACEdEose0cBAO3M7ZAvdNyPN6X6Lr8T4xZCyzndY1iy56CQdjHxyVOjM7TRMaNIIIlBnZCc7x4LakyP5mZCb8erq4SB1U5IiZA91m63SRHJENpGMm9AoZBEZBG8RpXDMLYiRc9smiVWS8CPpUnL54BWX36zZBVFkHMwIs9ZBajKLobN99wpf6hpLPoFfZCiimZBZAyMpIm8DbJYOgZDZD"
+    #token = "EAACEdEose0cBAJmq2gtuh0jL3xeAQgWP5E0iuXwwvImz1EqbH1isZBIRiqZBlZC1USWZA6M7JfY1Hj1N7CyUmWECEbVG61UmDor7Lwxy8xY2Kbbw2e6eaiEZCbLiT9xXZA0wDMZBWiA7dfej2yJOwuAb9m5WaDV7svrDT5yPAsr4Ua04tyZB5jWb6iCZBFHNEDmMZD"
     if type == "post":
         if limit == 0 or limit == None:
             return "请设置Limit参数"
-        url = "https://graph.facebook.com/v2.10/" + pageId + "/feed?fields=type,comments,shares,likes,message,created_time&access_token=" + token +"&limit=" + str(limit)
+        url = "https://graph.facebook.com/v2.10/" + pageId + "/feed?fields=type,comments,shares,likes.summary(true),message,created_time&access_token=" + token +"&limit=" + str(limit)
         result = {}
         while True:
             r = requests.get(url)
@@ -71,8 +71,9 @@ def index():
                 like_count = 0
                 comment_count = 0
                 share_count = 0
+                #获取赞数
                 if item.get("likes"):
-                    like_count = len(item.get("likes").get("data"))
+                    like_count = item.get("likes").get("summary").get("total_count")
                 if item.get("comments"):
                     comment_count = len(item.get("comments").get("data"))
                 if item.get("shares"):
