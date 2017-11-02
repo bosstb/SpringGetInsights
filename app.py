@@ -11,7 +11,7 @@ from flask_sockets import Sockets
 import random
 from views.todos import todos_view
 from flask import request
-import leancloud
+# import leancloud
 import requests
 import xml.dom.minidom
 import datetime
@@ -32,8 +32,8 @@ appId = 'wxe9b54103e44bd336'
 lastTitle = ''
 
 
-class Token(leancloud.Object):
-    pass
+# class Token(leancloud.Object):
+#     pass
 
 
 @app.route('/', methods=["GET", "POST"])
@@ -50,18 +50,23 @@ def index():
         return "请设置PageId参数"
     #获取Token
     # 获取token
-    query = leancloud.Query(Token)
-    query.equal_to('version', '1')
-    query_list = query.find()
-    token = query_list[0].get('token')
-    #token = "EAACEdEose0cBAJmq2gtuh0jL3xeAQgWP5E0iuXwwvImz1EqbH1isZBIRiqZBlZC1USWZA6M7JfY1Hj1N7CyUmWECEbVG61UmDor7Lwxy8xY2Kbbw2e6eaiEZCbLiT9xXZA0wDMZBWiA7dfej2yJOwuAb9m5WaDV7svrDT5yPAsr4Ua04tyZB5jWb6iCZBFHNEDmMZD"
+    # query = leancloud.Query(Token)
+    # query.equal_to('version', '1')
+    # query_list = query.find()
+    # token = query_list[0].get('token')
+    token = "EAAEEkVHCdHwBAKQuk0xHzZCaGqGkzfWLeXkh5rRz8ZAdDdBMBFAxkzROZCguyajVbvuc45Q2Ctk4VFJnDHtvmHYx1gOHbj5pmH1fJKGNtoCozADwsfLOlJT7sw0nanTjpU1potFpwdlPklCuUAHV02YHLmlRmIZD"
+    proxy = {
+        "http": "http://localhost:1080",
+        "https": "https://localhost:1080"
+    }
     if type == "post":
         if limit == 0 or limit == None:
             return "请设置Limit参数"
         url = "https://graph.facebook.com/v2.10/" + pageId + "/feed?fields=type,comments,shares,likes.summary(true),message,created_time&access_token=" + token +"&limit=" + str(limit)
         result = {}
         while True:
-            r = requests.get(url)
+
+            r = requests.get(url, proxies=proxy)
             content_json = json.loads(r.text)
             for item in content_json.get("data"):
                 created_time = item.get("created_time")
@@ -86,7 +91,7 @@ def index():
                 #                                                             "post_consumptions,	post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,post_negative_feedback,post_negative_feedback_unique,post_negative_feedback_by_type,post_negative_feedback_by_type_unique,post_engaged_fan,post_fan_reach,page_story_adds,"
                 #                                                             "page_story_adds_by_age_gender_unique,page_story_adds_by_city_unique,page_story_adds_by_country_unique,&access_token=" + token + "&limit=10")
                 r = requests.get(
-                    "https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions_unique,post_video_views_organic,post_video_views_paid,post_consumptions,post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,&access_token=" + token + "&limit=10")
+                    "https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions_unique,post_video_views_organic,post_video_views_paid,post_consumptions,post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,&access_token=" + token + "&limit=10", proxies=proxy)
                 print "https://graph.facebook.com/v2.10/" + id + "/insights?metric=post_impressions_unique,post_video_views_organic,post_video_views_paid,post_consumptions,post_consumptions_unique,post_consumptions_by_type,post_consumptions_by_type_unique,post_engaged_users,&access_token=" + token + "&limit=10"
                 post_json = json.loads(r.text)
                 names = []
@@ -131,7 +136,7 @@ def index():
         return json.dumps(result)
     elif type == "page":
         r = requests.get(
-            "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fan_adds_unique,page_fan_removes_unique,page_engaged_users,page_views_logged_in_total,page_posts_impressions_unique,page_video_views&period=day&since=" + since + "&until=" + until + "&access_token=" + token)
+            "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fans,page_fan_adds_unique,page_fan_removes_unique,page_engaged_users,page_views_logged_in_total,page_posts_impressions_unique,page_video_views&period=day&since=" + since + "&until=" + until + "&access_token=" + token, proxies=proxy)
         print "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fan_adds_unique,page_fan_removes_unique,page_engaged_users,page_views_logged_in_total,page_posts_impressions_unique,page_video_views&period=day&since=" + since + "&until=" + until + "&access_token=" + token
         content_json = json.loads(r.text)
         data = []

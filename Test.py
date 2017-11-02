@@ -2,11 +2,20 @@
 from datetime import datetime
 import random
 import xml.dom.minidom
+import requests
 #生成100个随机0,1之间的浮点数序列l
 l=0.1
 l = random.randint(1, 100)
 l=float(l)/100
 print datetime.today()
+proxy = {
+    "http": "http://localhost:1080",
+    "https": "https://localhost:1080"
+}
+r = requests.get("https://www.google.com.hk", proxies=proxy)
+
+#r = requests.get("http://www.google.com")
+print r.text
 
 def test():
     xx = """<xml>
