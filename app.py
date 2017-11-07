@@ -140,12 +140,24 @@ def index():
         print "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fan_adds_unique,page_fan_removes_unique,page_engaged_users,page_views_logged_in_total,page_posts_impressions_unique,page_video_views&period=day&since=" + since + "&until=" + until + "&access_token=" + token
         content_json = json.loads(r.text)
         data = []
-        values = []
+        names = []
         for item in content_json.get("data"):
             i = item.get("name")
-            values.append(i)
-        data.append(values)
+            names.append(i)
         values = []
+        for item in content_json.get("data"):
+            i = item.get("values")
+            values.append(str(i[0].get("value")))
+        #获取主页赞用户数
+        r = requests.get(
+            "https://graph.facebook.com/v2.10/" + pageId + "/insights?metric=page_fans&period=lifetime&access_token=" + token,
+            proxies=proxy)
+        print r.text
+        content_json = json.loads(r.text)
+        for item in content_json.get("data"):
+            i = item.get("name")
+            names.append(i)
+        data.append(values)
         for item in content_json.get("data"):
             i = item.get("values")
             values.append(str(i[0].get("value")))
