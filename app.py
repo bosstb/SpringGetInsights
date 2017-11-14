@@ -157,7 +157,7 @@ def index():
         for item in content_json.get("data"):
             i = item.get("name")
             names.append(i)
-        data.append()
+        data.append(names)
         for item in content_json.get("data"):
             i = item.get("values")
             values.append(str(i[0].get("value")))
